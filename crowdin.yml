@@ -1,4 +1,0 @@
-files:
-  - source: /source/en-US.csv
-    translation: /translations/%locale%.csv
-    scheme: 'identifier,source_or_translation'
