@@ -1,12 +1,38 @@
-Keys,Português (Brasil)
+Keys,Português (Portugal)
 ini_continue,Continuar
 ini_load,Carregar
 ini_ng,Novo jogo
 ini_creds,Créditos
+creds_dev,Desenvolvedor
+creds_comp,Compositor
+creds_translators,Tradutores
+config_sm,Modo de tela
+config_resolution,Resolução
+config_pp,Pixel perfeito
+config_hud,Info. de tela
+config_icons,Ícones de dispositivo
+config_lang,Idioma
+config_match_lang,Corresponder idioma
+config_gen,Geral
+config_sfx,Efeitos sonoros
+config_mus,Músicas
+config_amb,Ambiente
+config_dia,Diálogos
+op_window,Janela
+op_fullscreen,Tela cheia
+op_bordeless,Janela sem bordas
+op_yes,Sim
+op_no,Não
 op_ok,OK
-op_si,Mostrar info.
-op_hi,Ocultar info.
-op_page,Mudar página
+op_kb,Teclado e mouse
+op_gpa,Controle tipo A
+op_gpb,Controle tipo B
+op_gpc,Controle tipo C
+op_dynamic,Dinâmico
+op_im,Menu inicial
+op_dsktp,Área de trabalho
+warn_quit,Sair do jogo?
+warn_bind_conflict,"Há atribuições conflitantes. Para aplicar as alterações, corrija os conflitos."
 term_config,Configurações
 term_quit,Sair do jogo
 term_turn,TURNO
@@ -33,12 +59,12 @@ term_status,Status
 term_attr,Atributos
 term_nia,Novo item adquirido
 term_empty,Vazio
-scl_0,S
-scl_1,A
-scl_2,B
-scl_3,C
-scl_4,D
-scl_5,E
+scl_0,E
+scl_1,D
+scl_2,C
+scl_3,B
+scl_4,A
+scl_5,S
 ms_sanc,Santuário ativado
 ms_death,Você morreu
 warn_combat,!Combate Iminente!
@@ -54,6 +80,10 @@ menu_map,Mapa
 help_000,Selecionar
 help_001,Voltar
 help_002,Alterar info.
+help_003,Redefinir opção atual
+help_004,Redefinir opções
+help_005,Remover atribuição
+help_006,Remover item
 uti_name_000,Pequenos Estilhaços
 uti_name_001,Lasca de Estilhaço
 uti_name_002,Fragmento de Estilhaço
@@ -79,49 +109,38 @@ uti_name_021,Pote Explosivo
 uti_name_022,Pote Elétrico
 uti_name_023,Adaga de Arremesso
 uti_name_024,Kukri de Arremesso
-uti_desc_000_003,Concede {0} Estilhaços.
-uti_desc_004_006,Concede {0} Essências do Luar.
-uti_desc_007_011,Restaura {0}% de PV.
-uti_desc_012_013,Restaura {0}% de PM.
-uti_desc_014,Restaura todos os PM.
-uti_desc_015,"Melhoria de armas comuns.
-Reforja uma arma comum até +4."
-uti_desc_016,"Melhoria de armas místicas.
-Reforja uma arma mística até +4."
-uti_desc_017,"Melhoria final para todos os tipos de arma.
-Reforja uma arma até o nível máximo."
-uti_desc_018,Retorna o grupo para o último santuário descansado.
+uti_desc_000_003,"Concede {0} Estilhaços.
+
+Antes dos Estilhaços, o valor das trocas tinha se perdido no subsolo, e a humanidade se via perdida."
+uti_desc_004_006,"Concede {0} Essências do Luar.
+
+Mesmo os Firrelins sendo considerados demônios na Terra, com eles veio a benção que nos permite fortificar o corpo e o espírito."
+uti_desc_007,"Restaura um pouco de vida.
+
+Amarras estancam o sangramento e seguram a dor, dão a ilusão de bem estar, mesmo com a ferida ainda aberta."
+uti_desc_008,"Restaura vida.
+
+A sabedoria das raças inteligentes sempre incluiu o uso de certas ervas para tratar ferimentos, algo que em combate pode mudar o rumo de uma disputa."
+uti_desc_009,"Restaura parte da vida.
+
+Em muitas culturas cultuam o sangue, com a crença de ser capaz de recuperar a constituição do corpo."
+uti_desc_010,"Restaura muita vida.
+
+Poção feita desde séculos pela Yrgvonia, um dos antigos reinos da humanidade, destruído pelos Firrelins."
+uti_desc_011,Restaura grande parte da vida.
+uti_desc_012,Restaura parte da mana.
+uti_desc_013,Restaura muita mana.
+uti_desc_014,Restaura a mana completamente.
+uti_desc_015,Reforja armas comuns até +4.
+uti_desc_016,Reforja armas místicas até +4.
+uti_desc_017,Reforja armas até o nível máximo.
+uti_desc_018,Retorna o grupo para o último Santuário de Jernika descansado.
 uti_desc_019,Retorna a vida um membro morto do grupo.
-uti_desc_020,"Pote de barro cheio de óleo.
-Arremessar este pote contra um inimigo o deixa encharcado em óleo por 4 turnos, diminuindo sua resistência a fogo em 16%."
-uti_desc_021,"Pote de barro cheio de pólvora.
-Arremessar este pote contra um inimigo causa dano flamejante."
-uti_desc_022,"Pote de barro cheio de pó de fulgurito.
-Arremessar este pote contra um inimigo causa dano elétrico."
-uti_desc_023,"Pequena adaga arremessável.
-Arremessar esta adaga contra um inimigo causa dano físico e leve dano contra postura."
-uti_desc_024,"Facão curvo arremessável.
-Arremessar esta kukri contra um inimigo causa dano físico e acúmulo de sangramento."
-uti_inspec_000_004,"Há muito tempo, não havia mais sentido de uma moeda de troca. A humanidade no subsolo se viu perdida, mas graças a cooperação das outras raças, tiveram um tempo para se estabilizar e finalmente adotar a moeda já usada a milênios pelas outras raças."
-uti_inspec_004_006,
-uti_inspec_007,
-uti_inspec_008,"A sabedoria das raças inteligentes desde sempre abriga o poder de usar de ervas para curar feridas, algo que numa batalha, pode ser o diferencial para vencer uma batalha."
-uti_inspec_009,"Em muitas culturas cultuam o sangue, com a crença de ser capaz de recuperar a constituição do corpo."
-uti_inspec_010,"Poção feita desde séculos pela Yrgvonia, um dos antigos reinos da humanidade, destruído pelos Firrelins."
-uti_inspec_011,
-uti_inspec_012,
-uti_inspec_013,
-uti_inspec_014,
-uti_inspec_015,
-uti_inspec_016,
-uti_inspec_017,
-uti_inspec_018,
-uti_inspec_019,
-uti_inspec_020,
-uti_inspec_021,
-uti_inspec_022,
-uti_inspec_023,
-uti_inspec_024,
+uti_desc_020,"Banha o inimigo em óleo por 4 turnos, diminuindo sua resistência a fogo."
+uti_desc_021,Causa dano flamejante a inimigos.
+uti_desc_022,Causa dano elétrico a inimigos.
+uti_desc_023,Causa dano físico e leve dano contra postura a inimigos.
+uti_desc_024,Causa dano físico e acúmulo de sangramento a inimigos.
 arm_name_000,Armadura de Guerreiro
 arm_name_001,Armadura Cinzenta
 arm_name_002,Armadura de Guardião
@@ -148,7 +167,7 @@ arm_name_022,Trapos Velhos
 arm_name_023,Túnica das Montanhas
 arm_name_024,Túnica de Explorador
 arm_name_025,Túnica da Névoa
-arm_desc_000,"Armadura de placas de ferro resistentes, uma proteção excelente para combates físicos."
+arm_desc_000,"Poucos sobrevivem em combate sem boa proteção, apenas guerreiros quase míticos conseguem isso. Há relatos de figuras assim ao longo da história, e enfrentá-las é visto como uma honra rara."
 arm_desc_001,
 arm_desc_002,
 arm_desc_003,
@@ -174,32 +193,6 @@ arm_desc_022,
 arm_desc_023,
 arm_desc_024,
 arm_desc_025,
-arm_inspec_000,"Em combate, poucos sobrevivem sem armadura, apenas um deus da guerra encarnado consegueria derrotar oponentes sem uma armadura descente. Impressionantemente, muitas dessas lendas já existiram e ainda existem, poder enfrentá-los é considerado uma honra inimaginável, uma chance única na vida."
-arm_inspec_001,
-arm_inspec_002,
-arm_inspec_003,
-arm_inspec_004,
-arm_inspec_005,
-arm_inspec_006,
-arm_inspec_007,
-arm_inspec_008,
-arm_inspec_009,
-arm_inspec_010,
-arm_inspec_011,
-arm_inspec_012,
-arm_inspec_013,
-arm_inspec_014,
-arm_inspec_015,
-arm_inspec_016,
-arm_inspec_017,
-arm_inspec_018,
-arm_inspec_019,
-arm_inspec_020,
-arm_inspec_021,
-arm_inspec_022,
-arm_inspec_023,
-arm_inspec_024,
-arm_inspec_025,
 wea_name_000,Adaga Assassina
 wea_name_001,Adaga Aquosa
 wea_name_002,Adaga Nebulosa
@@ -228,10 +221,10 @@ wea_desc_001,
 wea_desc_002,
 wea_desc_003,
 wea_desc_004,
-wea_desc_005,Espada rápida e poderosa. Muito versátil e perfeita para um guerreiro dedicado.
+wea_desc_005,"Guerreiros do Oeste seguem um antigo costume. Após ganharem experiência, buscam um certo rito que lhes concede algo especial."
 wea_desc_006,
 wea_desc_007,
-wea_desc_008,"Machado marcado de tantos embates violentos, implacável, quase que demoníaco."
+wea_desc_008,"Diz-se que os bárbaros têm uma força incomum e talvez origem em comum com Fomludes, que desapareceram pouco antes de seu surgimento."
 wea_desc_009,
 wea_desc_010,
 wea_desc_011,
@@ -246,35 +239,10 @@ wea_desc_019,
 wea_desc_020,
 wea_desc_021,
 wea_desc_022,
-wea_inspec_000,
-wea_inspec_001,
-wea_inspec_002,
-wea_inspec_003,
-wea_inspec_004,
-wea_inspec_005,"Os guerreiros vindos das guerras do oeste guardam uma antiga tradição, após conquistarem muita experiência, eles devem ir atrás do Rito Antigo do Oeste, onde através dele, ganham uma recompensa única, que o deixará mais implacável do que já é em tal ponto."
-wea_inspec_006,
-wea_inspec_007,
-wea_inspec_008,"A força dos bárbaros é tão discomunal, que há uma lenda que diz que eles são descendentes dos ancestrais Fomludes, criaturas quadrupedes colossalmente grades e fortes, das terras do Norte. Curiosamente, os primeiros bárbaros surgiram logo após as extinção dos Fomludes."
-wea_inspec_009,
-wea_inspec_010,
-wea_inspec_011,
-wea_inspec_012,
-wea_inspec_013,
-wea_inspec_014,
-wea_inspec_015,
-wea_inspec_016,
-wea_inspec_017,
-wea_inspec_018,
-wea_inspec_019,
-wea_inspec_020,
-wea_inspec_021,
-wea_inspec_022,
 ski_name_000,
 ski_desc_000,
-ski_inspec_000,
 spe_name_000,
 spe_desc_000,
-spe_inspec_000,
 cha_name_000,Cinturão de Bravura
 cha_name_001,Colar de Ouro
 cha_name_002,Colar de Bronze
@@ -293,42 +261,24 @@ cha_name_014,Recordação de Ametista
 cha_name_015,Totem Lunar
 cha_name_016,Bolsa de Saque
 cha_name_017,Olho da Ganância
-cha_desc_000,Aumenta poder de ataque em 15%.
-cha_desc_001,Aumenta poder de feitiços 10%.
-cha_desc_002,Aumenta poder de milagres 10%.
-cha_desc_003,Aumenta defesa em 2% quanto mais ataques causados em uma batalha. Acúmulo máximo de 12%;
-cha_desc_004,Aumenta poder de ataque em 2% quanto mais ataques recebe em uma batalha. Acúmulo máximo de 16%.
-cha_desc_005,Aumenta poder de ataques de punho em 10%.
-cha_desc_006,Aumenta poder de ataque à distância em 12%.
+cha_desc_000,Aumenta vastamente poder de ataque.
+cha_desc_001,Aumenta poder de feitiços.
+cha_desc_002,Aumenta poder de milagres.
+cha_desc_003,Aumenta defesa conforme mais golpes são desferidos durante uma batalha até um certo limite.
+cha_desc_004,Aumenta poder de ataque conforme mais golpes são desferidos durante uma batalha até um certo limite.
+cha_desc_005,Aumenta poder de ataques de punho.
+cha_desc_006,Aumenta poder de ataque à distância.
 cha_desc_007,Melhora a esquiva.
-cha_desc_008,Melhora a absorção de dano do bloqueio em 20%.
-cha_desc_009,Melhora a defesa física em 10%.
-cha_desc_010,Melhora a defesa mágica em 10%.
-cha_desc_011,Melhora a defesa flamejante em 10%.
-cha_desc_012,Melhora a defesa física em 15%.
-cha_desc_013,Melhora a defesa elétrica em 15%.
-cha_desc_014,Melhora a resistência elemental em 12%.
-cha_desc_015,Aumenta a obtenção de Essencias do Luar em 20%.
-cha_desc_016,Aumenta a obtenção de Estilhaços em 20%.
-cha_desc_017,Aumenta a descoberta de itens em 30%.
-cha_inspec_000,
-cha_inspec_001,
-cha_inspec_002,
-cha_inspec_003,
-cha_inspec_004,
-cha_inspec_005,
-cha_inspec_006,
-cha_inspec_007,
-cha_inspec_008,
-cha_inspec_009,
-cha_inspec_010,
-cha_inspec_011,
-cha_inspec_012,
-cha_inspec_013,
-cha_inspec_014,
-cha_inspec_015,
-cha_inspec_016,
-cha_inspec_017,
+cha_desc_008,Melhora a absorção de dano do bloqueio.
+cha_desc_009,Melhora a defesa física.
+cha_desc_010,Melhora a defesa mágica.
+cha_desc_011,Melhora a defesa flamejante.
+cha_desc_012,Melhora vastamente a defesa física.
+cha_desc_013,Melhora vastamente a defesa elétrica.
+cha_desc_014,Melhora a resistência elemental.
+cha_desc_015,Aumenta a obtenção de Essencias do Luar.
+cha_desc_016,Aumenta a obtenção de Estilhaços.
+cha_desc_017,Aumenta a descoberta de itens.
 tal_name_000,Bracelete Espinhoso
 tal_name_001,Talismã do Machado Gélido
 tal_name_002,Receptáculo Sanguíneo
@@ -338,24 +288,15 @@ tal_name_005,Orbe Corrompido
 tal_name_006,Punição e Remorso
 tal_name_007,Talismã Serpentino
 tal_name_008,Anél de Madeira Triplo
-tal_desc_000,"Aumenta dano causado em 20%, porém aumenta dano recebido em 15%."
-tal_desc_001,"Aumenta o poder de congelamento em 30%, porém diminui resistência a dano flamejante em 20%."
-tal_desc_002,"Fortalece ataques em 30% nos primeiros 2 turnos, porém reduz defesa em 12% nos turnos subsequentes."
-tal_desc_003,"Aumenta a defesa do grupo em 5% por integrante, porém diminui dano causado em 3% por integrante."
-tal_desc_004,"Aumenta eficácia de itens de cura em 35%, porém reduz mana máxima em 15%."
-tal_desc_005,"Aumenta potência de magias em 16%, porém aumenta o custo de conjuração em 20%."
-tal_desc_006,"Fortalece ataques em 60% em inimigos com a vida cheia, porém enfraquece ataques em 40% em inimigos com menos de 20% de vida."
-tal_desc_007,"Inimigos envenenados sofrem 20% mais de dano, porém os mesmos causam 16% a mais de dano."
+tal_desc_000,"Aumenta dano causado, porém aumenta dano recebido."
+tal_desc_001,"Aumenta o poder de congelamento, porém diminui resistência a dano flamejante."
+tal_desc_002,"Fortalece ataques nos primeiros 2 turnos, porém reduz defesa nos turnos subsequentes."
+tal_desc_003,"Aumenta a defesa do grupo por integrante, porém diminui dano causado por integrante."
+tal_desc_004,"Aumenta eficácia de itens de cura, porém reduz mana máxima."
+tal_desc_005,"Aumenta potência de magias, porém aumenta o custo de conjuração."
+tal_desc_006,"Fortalece ataques em inimigos com a vida cheia, porém enfraquece ataques em inimigos com pouca vida."
+tal_desc_007,"Inimigos envenenados sofrem mais de dano, porém os mesmos causam mais de dano."
 tal_desc_008,"Dobra potência de efeitos curativos, porém são divididos igualmente entre todos os integrantes do grupo."
-tal_inspec_000,
-tal_inspec_001,
-tal_inspec_002,
-tal_inspec_003,
-tal_inspec_004,
-tal_inspec_005,
-tal_inspec_006,
-tal_inspec_007,
-tal_inspec_008,
 run_name_000,Emboscada Odiosa
 run_name_001,Misericórdia de Jernika
 run_name_002,Vingança Imediata
@@ -366,14 +307,8 @@ run_desc_000,Iniciar um combate atacando causa o dobro de dano.
 run_desc_001,Concede o poder de sobreviver uma vez a um ataque mortal. Restaura ao descansar em um Santuário de Jernika
 run_desc_002,Contra-ataca instantâneamente com sua arma mais forte o último inimigo que o atacou se o dano do inimigo for maior que o seu.
 run_desc_003,Concede Estilhaços ao executar um acerto crítico.
-run_desc_004,Passar seu turno concede aumento de 30% de dano no seu próximo turno.
-run_desc_005,30% de chance de magias custarem apenas metade do seu custo de mana.
-run_inspec_000,
-run_inspec_001,
-run_inspec_002,
-run_inspec_003,
-run_inspec_004,
-run_inspec_005,
+run_desc_004,Passar seu turno concede aumento de dano no seu próximo turno.
+run_desc_005,Chance de magias custarem apenas metade do seu custo de mana.
 amm_name_000,Flecha de Madeira
 amm_name_001,Flecha de Pluma
 amm_name_002,Flecha
@@ -388,13 +323,6 @@ amm_desc_003,Flecha banhada em poder mágico.
 amm_desc_004,Flecha banhada em óleo místico que nunca para de queimar.
 amm_desc_005,Flecha com pólvora grudada em sua ponta.
 amm_desc_006,Flecha banhada em poder elétrico.
-amm_inspec_000,
-amm_inspec_001,
-amm_inspec_002,
-amm_inspec_003,
-amm_inspec_004,
-amm_inspec_005,
-amm_inspec_006,
 prologue_000,"Nosso povo vivia com prosperidade. Não havia dificuldades, ou guerras."
 prologue_001,"Até que um dia, ou eu deva dizer, uma noite, tudo mudou."
 prologue_002,"O nosso cerúleo céu estrelado começou a se mover rapidamente, e então, ao que aparentava, a cair."

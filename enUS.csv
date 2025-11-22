@@ -3,10 +3,36 @@ ini_continue,Continue
 ini_load,Load
 ini_ng,New game
 ini_creds,Credits
+creds_dev,Developer
+creds_comp,Composer
+creds_translators,Translators
+config_sm,Screen mode
+config_resolution,Resolution
+config_pp,Pixel perfect
+config_hud,Screen info.
+config_icons,Device icons
+config_lang,Language
+config_match_lang,Match language
+config_gen,General
+config_sfx,Sound effects
+config_mus,Music
+config_amb,Ambience
+config_dia,Dialogues
+op_window,Window
+op_fullscreen,Full screen
+op_bordeless,Borderless window
+op_yes,Yes
+op_no,No
 op_ok,OK
-op_si,Show info.
-op_hi,Hide info.
-op_page,Change page
+op_kb,Keyboard and mouse
+op_gpa,Gamepad type A
+op_gpb,Gamepad type B
+op_gpc,Gamepad type C
+op_dynamic,Dynamic
+op_im,Initial menu
+op_dsktp,Desktop
+warn_quit,Quit game?
+warn_bind_conflict,"There are conflicting assignments. To apply the changes, correct the conflicts."
 term_config,Settings
 term_quit,Quit game
 term_turn,TURN
@@ -33,12 +59,12 @@ term_status,Status
 term_attr,Attributes
 term_nia,New item acquired
 term_empty,Empty
-scl_0,S
-scl_1,A
-scl_2,B
-scl_3,C
-scl_4,D
-scl_5,E
+scl_0,E
+scl_1,D
+scl_2,C
+scl_3,B
+scl_4,A
+scl_5,S
 ms_sanc,Sanctuary Activated
 ms_death,You died
 warn_combat,!Iminent Combat!
@@ -54,6 +80,10 @@ menu_map,Map
 help_000,Select
 help_001,Back
 help_002,Change info.
+help_003,Reset current option
+help_004,Reset options
+help_005,Remove assignment
+help_006,Remove item
 uti_name_000,Small Shards
 uti_name_001,Shard Splinter
 uti_name_002,Shard Fragment
@@ -79,50 +109,38 @@ uti_name_021,Explosive Pot
 uti_name_022,Electric Pot
 uti_name_023,Throwing Dagger
 uti_name_024,Throwing Kukri
-uti_desc_000_003,Grants {0} Sbards.
-uti_desc_004_006,Grants {0} Moonlight Echoes.
-uti_desc_007_011,Restore {0}% HP.
-uti_desc_012_013,Restore {0}% MP.
-uti_desc_014,Restore all MP.
-uti_desc_015,"Common weapon upgrade.
-Reforges a common weapon up to +4."
-uti_desc_016,"Mystical weapon upgrade.
-Reforges a mystical weapon up to +4."
-uti_desc_017,"Final upgrade for all weapon types.
-Reforges a weapon to its maximum level."
-uti_desc_018,Returns the group to the last rested sanctuary.
-uti_desc_019,Returns a dead member of the group to life.
-uti_desc_020,"Clay pot filled with oil.
-Throwing this pot at an enemy drenches them in oil for 4 turns, reducing their fire resistance by 16%."
-uti_desc_021,"Clay pot filled with gunpowder.
-Throwing this pot at an enemy causes flaming damage."
-uti_desc_022,"Clay pot filled with fulgurite powder.
-Throwing this pot at an enemy causes electrical damage."
-uti_desc_023,"Small throwing dagger.
-Throwing this dagger at an enemy causes physical damage and slight damage to posture."
-uti_desc_024,"Throwable curved machete.
-Throwing this kukri at an enemy causes physical damage and bleeding."
-uti_inspec_000_004,"Long ago, currency lost its meaning as a medium of exchange. Humanity underground found itself lost, but thanks to the cooperation of other races, they had time to stabilize and finally adopt the currency that had been used for millennia by other races."
-uti_inspec_004_006,
-uti_inspec_007,
-uti_inspec_008,"The wisdom of intelligent races has always included the power to use herbs to heal wounds, something that in battle can be the difference between victory and death."
-uti_inspec_009,"Many cultures worship blood, believing it to be capable of restoring the body's constitution."
-uti_inspec_010,"This potion has been made for centuries by Yrgvonia, one of the ancient kingdoms of humanity, destroyed by the Firrelins."
-uti_inspec_010,
-uti_inspec_011,
-uti_inspec_012,
-uti_inspec_013,
-uti_inspec_014,
-uti_inspec_015,
-uti_inspec_016,
-uti_inspec_017,
-uti_inspec_018,
-uti_inspec_019,
-uti_inspec_020,
-uti_inspec_021,
-uti_inspec_022,
-uti_inspec_023,
-uti_inspec_024,
+uti_desc_000_003,"Grants {0} Shards.
+
+Before the Shards, the value of exchange had been lost underground, and humanity found itself lost."
+uti_desc_004_006,"Grants {0} Moonlight Echoes.
+
+Even though the Firrelins are considered demons on Earth, with them came the blessing that allows us to fortify our bodies and spirits."
+uti_desc_007,"Restores a little of life.
+
+Bindings stop bleeding and hold back pain, giving the illusion of well-being, even with the wound still open."
+uti_desc_008,"Restores life.
+
+The wisdom of intelligent races has always included the use of certain herbs to treat wounds, something that in combat can change the course of a dispute."
+uti_desc_009,"Restores part of life.
+
+Many cultures worship blood, believing it to be capable of restoring the body's constitution."
+uti_desc_010,"Restores a lot of life.
+
+A potion made for centuries by Yrgvonia, one of the ancient kingdoms of humanity, destroyed by the Firrelins."
+uti_desc_011,Restores a large portion of health.
+uti_desc_012,Restores a portion of mana.
+uti_desc_013,Restores a large amount of mana.
+uti_desc_014,Restores mana completely.
+uti_desc_015,Reforges common weapons up to +4.
+uti_desc_016,Reforges mystical weapons up to +4.
+uti_desc_017,Reforges weapons to their maximum level.
+uti_desc_018,Returns the team to the last Jernika's Shrine they rested at.
+uti_desc_019,Revives a dead team member.
+uti_desc_020,"Coats the enemy in oil for 4 turns, decreasing their fire resistance."
+uti_desc_021,Deals fire damage to enemies.
+uti_desc_022,Deals electric damage to enemies.
+uti_desc_023,Deals physical damage and slight posture damage to enemies.
+uti_desc_024,Deals physical damage and bleeding to enemies.
 arm_name_000,Warrior Armor
 arm_name_001,Ashen Armor
 arm_name_002,Guardian Armor
@@ -149,7 +167,7 @@ arm_name_022,Old Rags
 arm_name_023,Mountain Tunic
 arm_name_024,Explorer's Tunic
 arm_name_025,Mist Tunic
-arm_desc_000,"Armor made of sturdy iron plates, excellent protection for physical combat."
+arm_desc_000,"Few survive combat without good protection, only almost mythical warriors can do so. There are reports of such figures throughout history, and facing them is seen as a rare honor."
 arm_desc_001,
 arm_desc_002,
 arm_desc_003,
@@ -175,33 +193,7 @@ arm_desc_022,
 arm_desc_023,
 arm_desc_024,
 arm_desc_025,
-arm_inspec_000,"In combat, few survive without armor, only a god of war incarnate could defeat opponents without decent armor. Impressively, many of these legends have existed and still exist, and to be able to face them is considered an unimaginable honor, a once in a lifetime chance."
-arm_inspec_001,
-arm_inspec_002,
-arm_inspec_003,
-arm_inspec_004,
-arm_inspec_005,
-arm_inspec_006,
-arm_inspec_007,
-arm_inspec_008,
-arm_inspec_009,
-arm_inspec_010,
-arm_inspec_011,
-arm_inspec_012,
-arm_inspec_013,
-arm_inspec_014,
-arm_inspec_015,
-arm_inspec_016,
-arm_inspec_017,
-arm_inspec_018,
-arm_inspec_019,
-arm_inspec_020,
-arm_inspec_021,
-arm_inspec_022,
-arm_inspec_023,
-arm_inspec_024,
-arm_inspec_025,
-wea_name_000,Assassin's Dagger
+wea_name_000,Assassin Dagger
 wea_name_001,Aquamarine Dagger
 wea_name_002,Nebulous Dagger
 wea_name_003,Damascenus
@@ -223,16 +215,16 @@ wea_name_018,Blood Vessel
 wea_name_019,Wooden Bow
 wea_name_020,Harp Bow
 wea_name_021,Parrying Shield
-wea_name_022,Coat of Arms Shield
+wea_name_022,Crest Shield
 wea_desc_000,
 wea_desc_001,
 wea_desc_002,
 wea_desc_003,
 wea_desc_004,
-wea_desc_005,"Fast and powerful sword, very versatile and perfect for a dedicated warrior."
+wea_desc_005,"Warriors of the West follow an ancient custom. After gaining experience, they seek out a certain rite that grants them something special."
 wea_desc_006,
 wea_desc_007,
-wea_desc_008,"Axe scarred from so many violent clashes, implacable, almost demonic."
+wea_desc_008,"It is said that barbarians have unusual strength and perhaps a common origin with the Fomludes, who disappeared shortly before their emergence."
 wea_desc_009,
 wea_desc_010,
 wea_desc_011,
@@ -247,35 +239,10 @@ wea_desc_019,
 wea_desc_020,
 wea_desc_021,
 wea_desc_022,
-wea_inspec_000,
-wea_inspec_001,
-wea_inspec_002,
-wea_inspec_003,
-wea_inspec_004,
-wea_inspec_005,"Warriors coming from the wars of the west keep an ancient tradition, after gaining a vast amount of experience, they must go after the Ancient Rite of the West, where through it, they gain a unique reward, which will make them more ruthless than they already are at that point."
-wea_inspec_006,
-wea_inspec_007,
-wea_inspec_008,"The strength of the barbarians is so extraordinary that there is a legend that they are descendants of the ancestral Fomluds, colossally large and strong quadruped creatures from the lands of the North. Curiously, the first barbarians appeared shortly after the extinction of the Fomluds."
-wea_inspec_009,
-wea_inspec_010,
-wea_inspec_011,
-wea_inspec_012,
-wea_inspec_013,
-wea_inspec_014,
-wea_inspec_015,
-wea_inspec_016,
-wea_inspec_017,
-wea_inspec_018,
-wea_inspec_019,
-wea_inspec_020,
-wea_inspec_021,
-wea_inspec_022,
 ski_name_000,
 ski_desc_000,
-ski_inspec_000,
 spe_name_000,
 spe_desc_000,
-spe_inspec_000,
 cha_name_000,Belt of Bravery
 cha_name_001,Gold Necklace
 cha_name_002,Bronze Necklace
@@ -294,42 +261,24 @@ cha_name_014,Amethyst Keepsake
 cha_name_015,Lunar Totem
 cha_name_016,Loot Bag
 cha_name_017,Eye of Greed
-cha_desc_000,Increases attack power by 15%.
-cha_desc_001,Increases spell power by 10%.
-cha_desc_002,Increases miracle power by 10%.
-cha_desc_003,Increases defense by 2% for each attack dealt in battle. Maximum accumulation of 12%.
-cha_desc_004,Increases attack power by 2% for each attack received in battle. Maximum accumulation of 16%.
-cha_desc_005,Increases fist attack power by 10%.
-cha_desc_006,Increases ranged attack power by 12%.
-cha_desc_007,Improves dodging.
-cha_desc_008,Improves block damage absorption by 20%.
-cha_desc_009,Improves physical defense by 10%.
-cha_desc_010,Improves magic defense by 10%.
-cha_desc_011,Improves flame defense by 10%.
-cha_desc_012,Improves physical defense by 15%.
-cha_desc_013,Improves electric defense by 15%.
-cha_desc_014,Improves elemental resistance by 12%.
-cha_desc_015,Increases Moonlight Echoes acquisition by 20%.
-cha_desc_016,Increases Shard acquisition by 20%.
-cha_desc_017,Increases item discovery by 30%.
-cha_inspec_000,
-cha_inspec_001,
-cha_inspec_002,
-cha_inspec_003,
-cha_inspec_004,
-cha_inspec_005,
-cha_inspec_006,
-cha_inspec_007,
-cha_inspec_008,
-cha_inspec_009,
-cha_inspec_010,
-cha_inspec_011,
-cha_inspec_012,
-cha_inspec_013,
-cha_inspec_014,
-cha_inspec_015,
-cha_inspec_016,
-cha_inspec_017,
+cha_desc_000,Greatly increases attack power.
+cha_desc_001,Increases spell power.
+cha_desc_002,Increases miracle power.
+cha_desc_003,"Increases defense as more hits are landed during battle, up to a certain limit."
+cha_desc_004,"Increases attack power as more hits are landed during battle, up to a certain limit."
+cha_desc_005,Increases fist attack power.
+cha_desc_006,Increases ranged attack power.
+cha_desc_007,Improves evasion.
+cha_desc_008,Improves damage absorption from blocking.
+cha_desc_009,Improves physical defense.
+cha_desc_010,Improves magic defense.
+cha_desc_011,Improves flame defense.
+cha_desc_012,Greatly improves physical defense.
+cha_desc_013,Greatly improves electric defense.
+cha_desc_014,Improves elemental resistance.
+cha_desc_015,Increases the acquisition of Moonlight Echoes.
+cha_desc_016,Increases the acquisition of Shards.
+cha_desc_017,Increases item discovery.
 tal_name_000,Thorn Bracelet
 tal_name_001,Frost Axe Talisman
 tal_name_002,Blood Vessel
@@ -339,24 +288,15 @@ tal_name_005,Corrupted Orb
 tal_name_006,Punishment and Remorse
 tal_name_007,Serpentine Talisman
 tal_name_008,Triple Wood Ring
-tal_desc_000,"Increases damage dealt by 20%, but increases damage taken by 15%."
-tal_desc_001,"Increases freezing power by 30%, but decreases resistance to fire damage by 20%."
-tal_desc_002,"Strengthens attacks by 30% in the first 2 turns, but reduces defense by 12% in subsequent turns."
-tal_desc_003,"Increases party defense by 5% per member, but decreases damage dealt by 3% per member."
-tal_desc_004,"Increases healing item effectiveness by 35%, but reduces maximum mana by 15%."
-tal_desc_005,"Increases spell power by 16%, but increases casting cost by 20%."
-tal_desc_006,"Strengthens attacks by 60% on enemies with full health, but weakens attacks by 40% on enemies with less than 20% health."
-tal_desc_007,"Poisoned enemies take 20% more damage, but they also deal 16% more damage."
-tal_desc_008,"Doubles the potency of healing effects, but they are divided equally among all group members."
-tal_inspec_000,
-tal_inspec_001,
-tal_inspec_002,
-tal_inspec_003,
-tal_inspec_004,
-tal_inspec_005,
-tal_inspec_006,
-tal_inspec_007,
-tal_inspec_008,
+tal_desc_000,"Increases damage dealt, but also increases damage received."
+tal_desc_001,"Increases freezing power, but decreases resistance to fire damage."
+tal_desc_002,"Strengthens attacks in the first 2 turns, but reduces defense in subsequent turns."
+tal_desc_003,"Increases the group's defense per member, but decreases damage dealt per member."
+tal_desc_004,"Increases the effectiveness of healing items, but reduces maximum mana."
+tal_desc_005,"Increases spell power, but increases casting cost."
+tal_desc_006,"Strengthens attacks on enemies with full health, but weakens attacks on enemies with low health."
+tal_desc_007,"Poisoned enemies take more damage, but they also deal more damage."
+tal_desc_008,"Doubles the power of healing effects, but they are divided equally among all group members."
 run_name_000,Hateful Ambush
 run_name_001,Jernika's Mercy
 run_name_002,Immediate Retribution
@@ -367,14 +307,8 @@ run_desc_000,Initiating combat by attacking deals double damage.
 run_desc_001,Grants the power to survive a deadly attack once. Restores when resting at a Jernika's Sanctuary.
 run_desc_002,Instantly counterattacks the last enemy that attacked you with your strongest weapon if the enemy's damage is greater than yours.
 run_desc_003,Grants Shards when landing a critical hit.
-run_desc_004,Passing your turn grants a 30% damage increase on your next turn.
-run_desc_005,30% chance for spells to cost only half their mana cost.
-run_inspec_000,
-run_inspec_001,
-run_inspec_002,
-run_inspec_003,
-run_inspec_004,
-run_inspec_005,
+run_desc_004,Passing your turn grants damage increase on your next turn.
+run_desc_005,Chance for spells to cost only half their mana cost.
 amm_name_000,Wooden Arrow
 amm_name_001,Feather Arrow
 amm_name_002,Arrow
@@ -389,13 +323,6 @@ amm_desc_003,Arrow bathed in magical power.
 amm_desc_004,Arrow bathed in mystical oil that never stops burning.
 amm_desc_005,Arrow with gunpowder stuck to its tip.
 amm_desc_006,Arrow bathed in electric power.
-amm_inspec_000,
-amm_inspec_001,
-amm_inspec_002,
-amm_inspec_003,
-amm_inspec_004,
-amm_inspec_005,
-amm_inspec_006,
 prologue_000,Our people lived in prosperity. There were no difficulties or wars.
 prologue_001,"Until one day, or should I say one night, everything changed."
 prologue_002,"Our cerulean starry sky began to move rapidly, and then, it seemed, to fall."
