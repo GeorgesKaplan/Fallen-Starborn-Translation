@@ -1,353 +1,341 @@
-Keys,English,Français
-ini_continue,Continue,Continuer
-ini_load,Load,Charger
-ini_ng,New game,Nouvelle partie
-ini_creds,Credits,Crédits
-creds_dev,Developer,Développeur
-creds_comp,Composer,Compositeur
-creds_translators,Translators,Traducteurs
-config_sm,Screen mode,Mode d'affichage
-config_resolution,Resolution,Résolution
-config_pp,Pixel perfect,Au pixel près
-config_hud,Screen info.,Infos écran
-config_icons,Device icons,Icônes appareil
-config_lang,Language,Langage
-config_match_lang,Match language,Langage auto
-config_gen,General,Général
-config_sfx,Sound effects,Effets sonores
-config_mus,Music,Music
-config_amb,Ambience,Ambiance
-config_dia,Dialogues,Dialogues
-op_window,Window,Fenêtré
-op_fullscreen,Full screen,Plein écran
-op_bordeless,Borderless window,Fenêtré sans bordures
-op_yes,Yes,Oui
-op_no,No,Non
-op_ok,OK,OK
-op_kb,Keyboard and mouse,Clavier et souris
-op_gpa,Gamepad type A,Manette type A
-op_gpb,Gamepad type B,Manette type B
-op_gpc,Gamepad type C,Manette type C
-op_dynamic,Dynamic,Dynamique
-op_im,Initial menu,Menu principal
-op_dsktp,Desktop,Bureau
-warn_quit,Quit game?,Quitter le jeu ?
-warn_bind_conflict,"There are conflicting assignments. To apply the changes, correct the conflicts.",Certaines attributions sont incompatibles. Corrigez les conflits pour appliquer les changements.
-term_config,Settings,Paramètres
-term_quit,Quit game,Quitter le jeu
-term_turn,TURN,TOUR
-term_attack,Attack,Attaquer
-term_skill,Skill,Capacités
-term_cast,Cast,Catalyser
-term_use,Use,Utiliser
-term_flee,Flee,Fuir
-term_return,Return,Retour
-term_skip_turn,Skip turn,Passer le tour
-term_power,Power,Pouvoir
-term_con,Condition,Condition
-term_neg,Negation,Négation
-term_bnr,Bonus/Req.,Bonus/Req.
-term_res,Res.,Res.
-term_poi,Poise,Posture
-term_lv,Lv.,Nv.
-term_xp,XP,XP
-term_equips,Equipments,Équipements
-term_weas,Weapons,Armes
-term_atl,Arm./Tal./Run.,Arm./Tal./Run.
-term_charms,Charms,Amulettes
-term_status,Status,Statut
-term_attr,Attributes,Attributs
-term_nia,New item acquired,Nouvel objet obtenu
-term_empty,Empty,Vide
-scl_0,E,E
-scl_1,D,D
-scl_2,C,C
-scl_3,B,B
-scl_4,A,A
-scl_5,S,S
-ms_sanc,Sanctuary Activated,Sanctuaire Activé
-ms_death,You died,Vous êtes mort
-warn_combat,!Iminent Combat!,! Combat Imminent !
-msg_wait_atk,{0} attacked with {1},{0} a attaqué avec {1}
-msg_wait_skill,{0} used skill {1},{0} a utilisé la capacité {1}
-msg_wait_cast,{0} casted {1},{0} a catalysé {1}
-msg_wait_use,{0} used {1},{0} a utilisé {1}
-msg_wait_skip,{0} skiped the turn,{0} a passé le tour
-menu_tea,Team,Équipe
-menu_inv,Inventory,Inventaire
-menu_cod,Codex,Codex
-menu_map,Map,Carte
-help_000,Select,Sélectionner
-help_001,Back,Retour
-help_002,Change info.,Infos changement
-help_003,Reset current option,Réinitialiser l'option actuelle
-help_004,Reset options,Réinitialiser les options
-help_005,Remove assignment,Enlever l'attribution
-help_006,Remove item,Enlever l'objet
-uti_name_000,Small Shards,Petits Éclats
-uti_name_001,Shard Splinter,Écharde d'Éclat
-uti_name_002,Shard Fragment,Fragment d'Éclat
-uti_name_003,Shard Ore,Minerai d'Éclat
-uti_name_004,Moon Traces,Traces de Lune
-uti_name_005,Moon Fragment,Fragment de Lune
-uti_name_006,Moon Piece,Morceau de Lune
-uti_name_007,Bandages,Bandages
-uti_name_008,Medicinal Herb,Herbe Médicinale
-uti_name_009,Blood Vial,Fiole de Sang
-uti_name_010,Yrgvonian Potion,Potion Yrgvonienne
-uti_name_011,Gishanu Rice,Riz de Gishanu
-uti_name_012,Klimagno Potion,Potion de Klimagno
-uti_name_013,Mana Pot,Jarre de Mana
-uti_name_014,Jornadel Jug,Carafe de Jornadel
-uti_name_015,Grinalite Nugget,Pépite de Grinalite
-uti_name_016,Buratite Crystal,Crystal de Buratite
-uti_name_017,Kirolitium Nodule,Nodule de Kirolitium
-uti_name_018,Rune Crest,Blason de Rune
-uti_name_019,Soul Fragment,Fragment d'Âme
-uti_name_020,Oil Pot,Jarre d'Huile
-uti_name_021,Explosive Pot,Jarre Explosive
-uti_name_022,Electric Pot,Jarre Électrique
-uti_name_023,Throwing Dagger,Dague de Lancer
-uti_name_024,Throwing Kukri,Kukri de Lancer
-uti_desc_000_003,"Grants {0} Shards.
-
-Before the Shards, the value of exchange had been lost underground, and humanity found itself lost.","Donne {0} Éclats.
+Keys,Français
+ini_continue,Continuer
+ini_load,Charger
+ini_ng,Nouvelle partie
+ini_creds,Crédits
+creds_dev,Développeur
+creds_comp,Compositeur
+creds_translators,Traducteurs
+config_sm,Mode d'affichage
+config_resolution,Résolution
+config_pp,Au pixel près
+config_hud,Infos écran
+config_icons,Icônes appareil
+config_lang,Langage
+config_match_lang,Langage auto
+config_gen,Général
+config_sfx,Effets sonores
+config_mus,Music
+config_amb,Ambiance
+config_dia,Dialogues
+op_window,Fenêtré
+op_fullscreen,Plein écran
+op_bordeless,Fenêtré sans bordures
+op_yes,Oui
+op_no,Non
+op_ok,OK
+op_kb,Clavier et souris
+op_gpa,Manette type A
+op_gpb,Manette type B
+op_gpc,Manette type C
+op_dynamic,Dynamique
+op_im,Menu principal
+op_dsktp,Bureau
+warn_quit,Quitter le jeu ?
+warn_bind_conflict,Certaines attributions sont incompatibles. Corrigez les conflits pour appliquer les changements.
+term_config,Paramètres
+term_quit,Quitter le jeu
+term_turn,TOUR
+term_attack,Attaquer
+term_skill,Capacités
+term_cast,Catalyser
+term_use,Utiliser
+term_flee,Fuir
+term_return,Retour
+term_skip_turn,Passer le tour
+term_power,Pouvoir
+term_con,Condition
+term_neg,Négation
+term_bnr,Bonus/Req.
+term_res,Res.
+term_poi,Posture
+term_lv,Nv.
+term_xp,XP
+term_equips,Équipements
+term_weas,Armes
+term_atl,Arm./Tal./Run.
+term_charms,Amulettes
+term_status,Statut
+term_attr,Attributs
+term_nia,Nouvel objet obtenu
+term_empty,Vide
+scl_0,E
+scl_1,D
+scl_2,C
+scl_3,B
+scl_4,A
+scl_5,S
+ms_sanc,Sanctuaire Activé
+ms_death,Vous êtes mort
+warn_combat,! Combat Imminent !
+msg_wait_atk,{0} a attaqué avec {1}
+msg_wait_skill,{0} a utilisé la capacité {1}
+msg_wait_cast,{0} a catalysé {1}
+msg_wait_use,{0} a utilisé {1}
+msg_wait_skip,{0} a passé le tour
+menu_tea,Équipe
+menu_inv,Inventaire
+menu_cod,Codex
+menu_map,Carte
+help_000,Sélectionner
+help_001,Retour
+help_002,Infos changement
+help_003,Réinitialiser l'option actuelle
+help_004,Réinitialiser les options
+help_005,Enlever l'attribution
+help_006,Enlever l'objet
+uti_name_000,Petits Éclats
+uti_name_001,Écharde d'Éclat
+uti_name_002,Fragment d'Éclat
+uti_name_003,Minerai d'Éclat
+uti_name_004,Traces de Lune
+uti_name_005,Fragment de Lune
+uti_name_006,Morceau de Lune
+uti_name_007,Bandages
+uti_name_008,Herbe Médicinale
+uti_name_009,Fiole de Sang
+uti_name_010,Potion Yrgvonienne
+uti_name_011,Riz de Gishanu
+uti_name_012,Potion de Klimagno
+uti_name_013,Jarre de Mana
+uti_name_014,Carafe de Jornadel
+uti_name_015,Pépite de Grinalite
+uti_name_016,Crystal de Buratite
+uti_name_017,Nodule de Kirolitium
+uti_name_018,Blason de Rune
+uti_name_019,Fragment d'Âme
+uti_name_020,Jarre d'Huile
+uti_name_021,Jarre Explosive
+uti_name_022,Jarre Électrique
+uti_name_023,Dague de Lancer
+uti_name_024,Kukri de Lancer
+uti_desc_000_003,"Donne {0} Éclats.
 
 Avant les Éclats, la valeur de l'échange avait été enterrée et l'humanité se voyait perdue."
-uti_desc_004_006,"Grants {0} Moonlight Echoes.
-
-Even though the Firrelins are considered demons on Earth, with them came the blessing that allows us to fortify our bodies and spirits.","Donne {0} Reflets de Lumière Sélène.
+uti_desc_004_006,"Donne {0} Reflets de Lumière Sélène.
 
 Bien que les Firrelins soient considérés comme des démons sur Terre, avec eux vint la bénédiction nous permettant de fortifier nos corps et nos esprits."
-uti_desc_007,"Restores a little of life.
-
-Bindings stop bleeding and hold back pain, giving the illusion of well-being, even with the wound still open.","Restaure un peu de vie.
+uti_desc_007,"Restaure un peu de vie.
 
 Ces liens arrêtent le saignement et effacent la douleur, donnant l'illusion de la santé même avec une blessure ouverte."
-uti_desc_008,"Restores life.
-
-The wisdom of intelligent races has always included the use of certain herbs to treat wounds, something that in combat can change the course of a dispute.","Restaure la vie.
+uti_desc_008,"Restaure la vie.
 
 La sagesse des races intelligentes a toujours inclus l'usage de certaines herbes pour traiter les blessures, ce qui peut chqnger l'issue d'un combat."
-uti_desc_009,"Restores part of life.
-
-Many cultures worship blood, believing it to be capable of restoring the body's constitution.","Restaure partiellement la vie.
+uti_desc_009,"Restaure partiellement la vie.
 
 De nombreuses cultures vénèrent le sang, le croyant capable de restaurer la constitution du corps."
-uti_desc_010,"Restores a lot of life.
-
-A potion made for centuries by Yrgvonia, one of the ancient kingdoms of humanity, destroyed by the Firrelins.","Restaure grandement la vie.
+uti_desc_010,"Restaure grandement la vie.
 
 Une potion concoctée depuis des siècles par l'Yrgvonie, un des anciens royaumes humains, détruit par les Firrelins."
-uti_desc_011,Restores a large portion of health.,Restaure une grande partie de la vie.
-uti_desc_012,Restores a portion of mana.,Restaure partiellement le mana.
-uti_desc_013,Restores a large amount of mana.,Restaure une grande partie du mana.
-uti_desc_014,Restores mana completely.,Restaure entièrement le mana.
-uti_desc_015,Reforges common weapons up to +4.,Reforge les armes communes jusqu'à +4.
-uti_desc_016,Reforges mystical weapons up to +4.,Reforge les armes mystiques jusqu'à +4.
-uti_desc_017,Reforges weapons to their maximum level.,Reforge les armes à leur niveau maximal.
-uti_desc_018,Returns the team to the last Jernika's Shrine they rested at.,Ramène l'équipe au dernier Autel de Jernika visité.
-uti_desc_019,Revives a dead team member.,Ressuscite un membre d'équipe.
-uti_desc_020,"Coats the enemy in oil for 4 turns, decreasing their fire resistance.","Couvre l'ennemi d'huile pour 4 tours, diminuant leur résistance au feu."
-uti_desc_021,Deals fire damage to enemies.,Inflige des dégâts de feu aux ennemis.
-uti_desc_022,Deals electric damage to enemies.,Inflige des dégâts électriques aux ennemis.
-uti_desc_023,Deals physical damage and slight posture damage to enemies.,Inflige des dégâts physiques aux ennemis et endommage légèrement leur posture.
-uti_desc_024,Deals physical damage and bleeding to enemies.,Inflige des dégâts physiques et de saignement aux ennemis.
-arm_name_000,Warrior Armor,Armure de Guerrier
-arm_name_001,Ashen Armor,Armure des Cendres
-arm_name_002,Guardian Armor,Armure de Gardien
-arm_name_003,Necromancer Armor,Armure de Nécromancien
-arm_name_004,Feather Armor,Armure de Plumes
-arm_name_005,Count's Armor,Armure du Comte
-arm_name_006,Crimson Plates,Plaques Écarlates
-arm_name_007,Stone Plates,Plaques de Pierre
-arm_name_008,Bear Cloak,Cape de l'Ours
-arm_name_009,Hunting Cloak,Cape de Chasse
-arm_name_010,Black Cloak,Cape Noire
-arm_name_011,Pale Cloak,Cape Pâle
-arm_name_012,Ancestral Wings,Ailes Ancestrales
-arm_name_013,Bone Cuirass,Cuirasse d'Os
-arm_name_014,Devastated Cuirass,Cuirasse Dévastée
-arm_name_015,Ram's Cuirass,Cuirasse du Bélier
-arm_name_016,Deacon's Robes,Robe de Diacre
-arm_name_017,Plague Robes,Robe de la Peste
-arm_name_018,Stalker's Robes,Robe du Rôdeur
-arm_name_019,Western Robes,Robe Occidentale
-arm_name_020,Shadow Garb,Habit des Ombres
-arm_name_021,Mountain Garb,Habit Montagnard
-arm_name_022,Old Rags,Vieilles Guenilles
-arm_name_023,Mountain Tunic,Tunique Montagnarde
-arm_name_024,Explorer's Tunic,Tunique de l'Explorateur
-arm_name_025,Mist Tunic,Tunique des Brumes
-arm_desc_000,"Few survive combat without good protection, only almost mythical warriors can do so. There are reports of such figures throughout history, and facing them is seen as a rare honor.","Peu survivent au combat sans une bonne protection, hormis les guerriers quasi-mythiques. Les récits de telles figures traversent l'Histoire, et les rencontrer est un rare honneur."
-arm_desc_001,,
-arm_desc_002,,
-arm_desc_003,,
-arm_desc_004,,
-arm_desc_005,,
-arm_desc_006,,
-arm_desc_007,,
-arm_desc_008,,
-arm_desc_009,,
-arm_desc_010,,
-arm_desc_011,,
-arm_desc_012,,
-arm_desc_013,,
-arm_desc_014,,
-arm_desc_015,,
-arm_desc_016,,
-arm_desc_017,,
-arm_desc_018,,
-arm_desc_019,,
-arm_desc_020,,
-arm_desc_021,,
-arm_desc_022,,
-arm_desc_023,,
-arm_desc_024,,
-arm_desc_025,,
-wea_name_000,Assassin Dagger,Dague d'Assassin
-wea_name_001,Aquamarine Dagger,Dague d'Aigue-Marine
-wea_name_002,Nebulous Dagger,Dague Nébuleuse
-wea_name_003,Damascenus,Damascenus
-wea_name_004,Broken Sword,Épée Brisée
-wea_name_005,Long Sword,Épée Longue
-wea_name_006,Obsidian Sword,Épée d'Obsidienne
-wea_name_007,Cursed Sword,Épée Maudite
-wea_name_008,Bloodstained Axe,Hache Ensanglantée
-wea_name_009,Tidebreaker,Brise-Marée
-wea_name_010,Halberd of Honor,Hallebarde d'Honneur
-wea_name_011,Funeral Halberd,Hallebarde Funéraire
-wea_name_012,Ring Bracelet,Bracelet d'Anneaux
-wea_name_013,Iron Gauntlets,Gants de Fer
-wea_name_014,Wooden Staff,Bâton de Bois
-wea_name_015,Arcane Scepter,Sceptre Arcanique
-wea_name_016,Cerulean Staff,Bâton Céruléen
-wea_name_017,Sacred Beads,Billes Sacrées
-wea_name_018,Blood Vessel,Réceptacle de Sang
-wea_name_019,Wooden Bow,Arc de Bois
-wea_name_020,Harp Bow,Arc-Harpe
-wea_name_021,Parrying Shield,Bocle
-wea_name_022,Crest Shield,Écusson
-wea_desc_000,,
-wea_desc_001,,
-wea_desc_002,,
-wea_desc_003,,
-wea_desc_004,,
-wea_desc_005,"Warriors of the West follow an ancient custom. After gaining experience, they seek out a certain rite that grants them something special.","Les guerriers Occidentaux suivent une ancienne coutume ; après avoir gagné en expérience, ils procèdent à un rituel leur accordant quelque chose de spécial."
-wea_desc_006,,
-wea_desc_007,,
-wea_desc_008,"It is said that barbarians have unusual strength and perhaps a common origin with the Fomludes, who disappeared shortly before their emergence.","On dit que les barbares possèdent une force inhabituelle et peut-être une origine commune avec les Fomludes, disparus peu après leur émergence."
-wea_desc_009,,
-wea_desc_010,,
-wea_desc_011,,
-wea_desc_012,,
-wea_desc_013,,
-wea_desc_014,,
-wea_desc_015,,
-wea_desc_016,,
-wea_desc_017,,
-wea_desc_018,,
-wea_desc_019,,
-wea_desc_020,,
-wea_desc_021,,
-wea_desc_022,,
-ski_name_000,,
-ski_desc_000,,
-spe_name_000,,
-spe_desc_000,,
-cha_name_000,Belt of Bravery,Ceinture du Courage
-cha_name_001,Gold Necklace,Collier en Or
-cha_name_002,Bronze Necklace,Collier en Bronze
-cha_name_003,Hardened Heart,Cœur Hardi
-cha_name_004,Engraved Stone,Pierre Gravée
-cha_name_005,Gishanu Miniature,Figurine de Gishanu
-cha_name_006,Hunter's Bone,Os de Chasseur
-cha_name_007,Lineage Tanto,Tanto de Lignée
-cha_name_008,Stone Shield,Bouclier de Pierre
-cha_name_009,Agate Pendant,Pendentif d'Agate
-cha_name_010,Topaz Pendant,Pendentif de Topaze
-cha_name_011,Opal Pendant,Pendentif d'Opale
-cha_name_012,Agate Amulet,Amulette d'Agate
-cha_name_013,Citrine Amulet,Amulette de Citrine
-cha_name_014,Amethyst Keepsake,Souvenir en Améthyste
-cha_name_015,Lunar Totem,Totem Lunaire
-cha_name_016,Loot Bag,Sac à Butin
-cha_name_017,Eye of Greed,Œil de la Cupidité
-cha_desc_000,Greatly increases attack power.,Augmente grandment la puissance d'attaque.
-cha_desc_001,Increases spell power.,Augmente la puissance des sorts.
-cha_desc_002,Increases miracle power.,Augmente la puissance des miracles
-cha_desc_003,"Increases defense as more hits are landed during battle, up to a certain limit.","Augmente la défense à chaque coup porté, jusqu'à une certaine limite."
-cha_desc_004,"Increases attack power as more hits are landed during battle, up to a certain limit.","Augmente la puissance d'attaque à chaque coup porté, jusqu'à une certaine limite."
-cha_desc_005,Increases fist attack power.,Augmente grandment la puissance d'attaque des poings.
-cha_desc_006,Increases ranged attack power.,Augmente grandment la puissance des attaques à distance.
-cha_desc_007,Improves evasion.,Augmente l'esquive.
-cha_desc_008,Improves damage absorption from blocking.,Augmente l'absorption des dégâts du blocage.
-cha_desc_009,Improves physical defense.,Augmente la défense physique.
-cha_desc_010,Improves magic defense.,Augmente la défense magique.
-cha_desc_011,Improves flame defense.,Augmente la résistance aux flammes.
-cha_desc_012,Greatly improves physical defense.,Augmente grandement la défense physique.
-cha_desc_013,Greatly improves electric defense.,Augmente grandement la résistance électrique.
-cha_desc_014,Improves elemental resistance.,Augmente la résistance aux éléments.
-cha_desc_015,Increases the acquisition of Moonlight Echoes.,Augmente l'acquisition des Reflets de Lumière Sélène.
-cha_desc_016,Increases the acquisition of Shards.,Augmente l'acquisition des Éclats.
-cha_desc_017,Increases item discovery.,Augmente la découverte d'objets.
-tal_name_000,Thorn Bracelet,Bracelet à Épines
-tal_name_001,Frost Axe Talisman,Talisman d'Hache Gelée
-tal_name_002,Blood Vessel,Réceptacle de Sang
-tal_name_003,Rag Doll,Poupée de Chiffon
-tal_name_004,Black Herb,Herbe Noire
-tal_name_005,Corrupted Orb,Orbe Corrompu
-tal_name_006,Punishment and Remorse,Châtiment et Remord
-tal_name_007,Serpentine Talisman,Talisman Ophidien
-tal_name_008,Triple Wood Ring,Anneau de Trois Bois
-tal_desc_000,"Increases damage dealt, but also increases damage received.",Augmente les dégâts ingligés mais également les dégâts subis.
-tal_desc_001,"Increases freezing power, but decreases resistance to fire damage.",Augmente la puissance de congélation mais diminue la résistance au feu.
-tal_desc_002,"Strengthens attacks in the first 2 turns, but reduces defense in subsequent turns.","Améliore les attaques des deux premiers tours, mais réduit la défense pour les tours suivants."
-tal_desc_003,"Increases the group's defense per member, but decreases damage dealt per member.",Augmente la défense des membres du groupe mais diminue les dégâts qu'ils infligent.
-tal_desc_004,"Increases the effectiveness of healing items, but reduces maximum mana.",Augmente l'efficacité des soins mais réduit le mana maximum.
-tal_desc_005,"Increases spell power, but increases casting cost.",Augmente la puissance des sorts et leur coût.
-tal_desc_006,"Strengthens attacks on enemies with full health, but weakens attacks on enemies with low health.",Améliore les attaques contre les ennemis en pleine santé mais diminue les dégâts contre les ennemis à la santé basse.
-tal_desc_007,"Poisoned enemies take more damage, but they also deal more damage.",Les ennemis empoisonnés subissent plus de dégâts mais infligent plus de dégâts.
-tal_desc_008,"Doubles the power of healing effects, but they are divided equally among all group members.",Double la puissance des effets de soin mais les divisent équitablement entre les membres du groupe.
-run_name_000,Hateful Ambush,Embuscade Haineuse
-run_name_001,Jernika's Mercy,Clémence de Jernika
-run_name_002,Immediate Retribution,Rétribution Immédiate
-run_name_003,Bloody Spoils,Butin Ensanglanté
-run_name_004,Eminent Fury,Furie Éminente
-run_name_005,Mystic Lottery,Loterie Mystique
-run_desc_000,Initiating combat by attacking deals double damage.,Initier le combat par une attaque double les dégâts.
-run_desc_001,Grants the power to survive a deadly attack once. Restores when resting at a Jernika's Sanctuary.,Permet de survivre une fois à une attaque mortelle. Se régénère aux Sanctuaires de Jernika.
-run_desc_002,Instantly counterattacks the last enemy that attacked you with your strongest weapon if the enemy's damage is greater than yours.,Contre-attaque immédiatement avec l'arme la plus puissante si les dégâts de l'ennemi sont supérieurs aux vôtres.
-run_desc_003,Grants Shards when landing a critical hit.,Donne des Éclats lorsqu'un coup critique est infligé.
-run_desc_004,Passing your turn grants damage increase on your next turn.,Passer votre tour augmente les dégâts du prochain tour.
-run_desc_005,Chance for spells to cost only half their mana cost.,Les sorts ont une chance de voir leur coût diminué de moitié.
-amm_name_000,Wooden Arrow,Flèche en Bois
-amm_name_001,Feather Arrow,Flèche à Plumes
-amm_name_002,Arrow,Flèche
-amm_name_003,Magic Arrow,Flèche Magique
-amm_name_004,Flaming Arrow,Flèche Enflammée
-amm_name_005,Explosive Arrow,Flèche Explosive
-amm_name_006,Electric Arrow,Flèche Électrique
-amm_desc_000,Arrow made of wood.,Une flèche faite de bois.
-amm_desc_001,Arrow decorated with feathers.,Une flèche ornée de plumes.
-amm_desc_002,Arrow with an iron-forged tip.,Une flèche à la pointe en fer forgé.
-amm_desc_003,Arrow bathed in magical power.,Une flèche imprégnée de puissance magique.
-amm_desc_004,Arrow bathed in mystical oil that never stops burning.,Une flèche couverte d'huile mystique brûlant éternellement.
-amm_desc_005,Arrow with gunpowder stuck to its tip.,Une flèche avec de la poudre à canon attachée à sa pointe.
-amm_desc_006,Arrow bathed in electric power.,Une flèche imprégnée de puissance électrique.
-prologue_000,Our people lived in prosperity. There were no difficulties or wars.,Notre peuple vivait dans la prospérité. Il n'y avait ni difficultés ni guerres.
-prologue_001,"Until one day, or should I say one night, everything changed.","Jusqu'à ce qu'un jour, ou devrais-je dire une nuit, tout changea."
-prologue_002,"Our cerulean starry sky began to move rapidly, and then, it seemed, to fall.","Nos cieux étoilés commencèrent à se mouvoir rapidement, puis, semble-t-il, à s'effondrer."
-prologue_003,"Strange beings, called Firrelins, emerged from those monstrous craters and suddenly began to attack us.","Des êtres étranges, appelés Firrelins, émergèrent de ces monstrueux cratères et nous attaquèrent soudainement."
-prologue_004,"Soon, the largest, supposedly star, fell and formed the largest crater, and a proportionally gigantic creature emerged from it.","Bientôt, la plus grande de ces semblants d'étoiles tomba et forma le plus large des cratères, dont émergea une toute aussi gigantesque créature."
-prologue_005,"We nicknamed it Vehord, the Lupine Lord.","Il fut surnommé Vehord, le Seigneur Lupin."
-prologue_006,That monstrous wolf apparently commanded the smaller creatures. And the whole attack only got worse...,Ce loup monstrueux semblait commander aux autres créatures. Et les attaques empirèrent...
-prologue_007,"As our only choice, we hid underground on our planet.",Notre seul choix fut de nous enfuir sous terre.
-prologue_008,"It soon became clear that the interior of the Earth was magically indestructible to the stellar beings, but still capable of being invaded, however arduously...","Il devient bientôt clair que l'intérieur de la Terre était magiquement protégée contre la destruction apportée par les êtres stellaires, mais pouvait toujours être envahie, bien que difficilement..."
-prologue_009,"Over time, exploring that new world, we were shown everything the world hid.","Le temps passant, à force d'explorations, nous découvrîmes tout ce que le monde recelait."
-prologue_010,"Magic, sophisticated engineering, other races like us, and even the gods, though most were far from their full potential or dead.","Magie, ingénierie sophistiquée, races similaires à la nôtre et même les dieux, bien que nombre d'entre eux étaient loin de leur plein potentiel, voire morts."
-prologue_011,"We joined forces with the other beings, and over time, we established our own societies and kingdoms.","Nous joignîmes nos forces à celles des habitants des profondeurs et, au fil du temps, nous établîmes nos propres sociétés et royaumes."
-prologue_012,"And now, we have special troops called Moonlight Travelers, who explore the entire underground in search of resources and to improve themselves","Désormais nous avons nos propres troupes spéciales : les Voyageurs du Clair de Lune, qui explorent le monde souterrain à la recherche de resources et de leur propre accomplissement."
-prologue_013,"So that, when they are together, they can cross the barrier that separates the underground from the surface and face Vehord, and any other Cerulean Lords...","De telle sorte que, réunis, ils peuvent traverser la barrière nous séparant du monde d'en-haut pour faire face à Vehord et tous les Seigneurs Céruléens..."
-prologue_014,"So that one day, we may return to the vast kingdom that was taken from us.","Afin qu'un jour, nous puissions retourner au vaste royaume qui nous fut enlevé."
-npc_000_dia_000,But you already know that story...,"Mais cette histoire, tu la connais déjà..."
+uti_desc_011,Restaure une grande partie de la vie.
+uti_desc_012,Restaure partiellement le mana.
+uti_desc_013,Restaure une grande partie du mana.
+uti_desc_014,Restaure entièrement le mana.
+uti_desc_015,Reforge les armes communes jusqu'à +4.
+uti_desc_016,Reforge les armes mystiques jusqu'à +4.
+uti_desc_017,Reforge les armes à leur niveau maximal.
+uti_desc_018,Ramène l'équipe au dernier Autel de Jernika visité.
+uti_desc_019,Ressuscite un membre d'équipe.
+uti_desc_020,"Couvre l'ennemi d'huile pour 4 tours, diminuant leur résistance au feu."
+uti_desc_021,Inflige des dégâts de feu aux ennemis.
+uti_desc_022,Inflige des dégâts électriques aux ennemis.
+uti_desc_023,Inflige des dégâts physiques aux ennemis et endommage légèrement leur posture.
+uti_desc_024,Inflige des dégâts physiques et de saignement aux ennemis.
+arm_name_000,Armure de Guerrier
+arm_name_001,Armure des Cendres
+arm_name_002,Armure de Gardien
+arm_name_003,Armure de Nécromancien
+arm_name_004,Armure de Plumes
+arm_name_005,Armure du Comte
+arm_name_006,Plaques Écarlates
+arm_name_007,Plaques de Pierre
+arm_name_008,Cape de l'Ours
+arm_name_009,Cape de Chasse
+arm_name_010,Cape Noire
+arm_name_011,Cape Pâle
+arm_name_012,Ailes Ancestrales
+arm_name_013,Cuirasse d'Os
+arm_name_014,Cuirasse Dévastée
+arm_name_015,Cuirasse du Bélier
+arm_name_016,Robe de Diacre
+arm_name_017,Robe de la Peste
+arm_name_018,Robe du Rôdeur
+arm_name_019,Robe Occidentale
+arm_name_020,Habit des Ombres
+arm_name_021,Habit Montagnard
+arm_name_022,Vieilles Guenilles
+arm_name_023,Tunique Montagnarde
+arm_name_024,Tunique de l'Explorateur
+arm_name_025,Tunique des Brumes
+arm_desc_000,"Peu survivent au combat sans une bonne protection, hormis les guerriers quasi-mythiques. Les récits de telles figures traversent l'Histoire, et les rencontrer est un rare honneur."
+arm_desc_001,
+arm_desc_002,
+arm_desc_003,
+arm_desc_004,
+arm_desc_005,
+arm_desc_006,
+arm_desc_007,
+arm_desc_008,
+arm_desc_009,
+arm_desc_010,
+arm_desc_011,
+arm_desc_012,
+arm_desc_013,
+arm_desc_014,
+arm_desc_015,
+arm_desc_016,
+arm_desc_017,
+arm_desc_018,
+arm_desc_019,
+arm_desc_020,
+arm_desc_021,
+arm_desc_022,
+arm_desc_023,
+arm_desc_024,
+arm_desc_025,
+wea_name_000,Dague d'Assassin
+wea_name_001,Dague d'Aigue-Marine
+wea_name_002,Dague Nébuleuse
+wea_name_003,Damascenus
+wea_name_004,Épée Brisée
+wea_name_005,Épée Longue
+wea_name_006,Épée d'Obsidienne
+wea_name_007,Épée Maudite
+wea_name_008,Hache Ensanglantée
+wea_name_009,Brise-Marée
+wea_name_010,Hallebarde d'Honneur
+wea_name_011,Hallebarde Funéraire
+wea_name_012,Bracelet d'Anneaux
+wea_name_013,Gants de Fer
+wea_name_014,Bâton de Bois
+wea_name_015,Sceptre Arcanique
+wea_name_016,Bâton Céruléen
+wea_name_017,Billes Sacrées
+wea_name_018,Réceptacle de Sang
+wea_name_019,Arc de Bois
+wea_name_020,Arc-Harpe
+wea_name_021,Bocle
+wea_name_022,Écusson
+wea_desc_000,
+wea_desc_001,
+wea_desc_002,
+wea_desc_003,
+wea_desc_004,
+wea_desc_005,"Les guerriers Occidentaux suivent une ancienne coutume ; après avoir gagné en expérience, ils procèdent à un rituel leur accordant quelque chose de spécial."
+wea_desc_006,
+wea_desc_007,
+wea_desc_008,"On dit que les barbares possèdent une force inhabituelle et peut-être une origine commune avec les Fomludes, disparus peu après leur émergence."
+wea_desc_009,
+wea_desc_010,
+wea_desc_011,
+wea_desc_012,
+wea_desc_013,
+wea_desc_014,
+wea_desc_015,
+wea_desc_016,
+wea_desc_017,
+wea_desc_018,
+wea_desc_019,
+wea_desc_020,
+wea_desc_021,
+wea_desc_022,
+ski_name_000,
+ski_desc_000,
+spe_name_000,
+spe_desc_000,
+cha_name_000,Ceinture du Courage
+cha_name_001,Collier en Or
+cha_name_002,Collier en Bronze
+cha_name_003,Cœur Hardi
+cha_name_004,Pierre Gravée
+cha_name_005,Figurine de Gishanu
+cha_name_006,Os de Chasseur
+cha_name_007,Tanto de Lignée
+cha_name_008,Bouclier de Pierre
+cha_name_009,Pendentif d'Agate
+cha_name_010,Pendentif de Topaze
+cha_name_011,Pendentif d'Opale
+cha_name_012,Amulette d'Agate
+cha_name_013,Amulette de Citrine
+cha_name_014,Souvenir en Améthyste
+cha_name_015,Totem Lunaire
+cha_name_016,Sac à Butin
+cha_name_017,Œil de la Cupidité
+cha_desc_000,Augmente grandment la puissance d'attaque.
+cha_desc_001,Augmente la puissance des sorts.
+cha_desc_002,Augmente la puissance des miracles
+cha_desc_003,"Augmente la défense à chaque coup porté, jusqu'à une certaine limite."
+cha_desc_004,"Augmente la puissance d'attaque à chaque coup porté, jusqu'à une certaine limite."
+cha_desc_005,Augmente grandment la puissance d'attaque des poings.
+cha_desc_006,Augmente grandment la puissance des attaques à distance.
+cha_desc_007,Augmente l'esquive.
+cha_desc_008,Augmente l'absorption des dégâts du blocage.
+cha_desc_009,Augmente la défense physique.
+cha_desc_010,Augmente la défense magique.
+cha_desc_011,Augmente la résistance aux flammes.
+cha_desc_012,Augmente grandement la défense physique.
+cha_desc_013,Augmente grandement la résistance électrique.
+cha_desc_014,Augmente la résistance aux éléments.
+cha_desc_015,Augmente l'acquisition des Reflets de Lumière Sélène.
+cha_desc_016,Augmente l'acquisition des Éclats.
+cha_desc_017,Augmente la découverte d'objets.
+tal_name_000,Bracelet à Épines
+tal_name_001,Talisman d'Hache Gelée
+tal_name_002,Réceptacle de Sang
+tal_name_003,Poupée de Chiffon
+tal_name_004,Herbe Noire
+tal_name_005,Orbe Corrompu
+tal_name_006,Châtiment et Remord
+tal_name_007,Talisman Ophidien
+tal_name_008,Anneau de Trois Bois
+tal_desc_000,Augmente les dégâts ingligés mais également les dégâts subis.
+tal_desc_001,Augmente la puissance de congélation mais diminue la résistance au feu.
+tal_desc_002,"Améliore les attaques des deux premiers tours, mais réduit la défense pour les tours suivants."
+tal_desc_003,Augmente la défense des membres du groupe mais diminue les dégâts qu'ils infligent.
+tal_desc_004,Augmente l'efficacité des soins mais réduit le mana maximum.
+tal_desc_005,Augmente la puissance des sorts et leur coût.
+tal_desc_006,Améliore les attaques contre les ennemis en pleine santé mais diminue les dégâts contre les ennemis à la santé basse.
+tal_desc_007,Les ennemis empoisonnés subissent plus de dégâts mais infligent plus de dégâts.
+tal_desc_008,Double la puissance des effets de soin mais les divisent équitablement entre les membres du groupe.
+run_name_000,Embuscade Haineuse
+run_name_001,Clémence de Jernika
+run_name_002,Rétribution Immédiate
+run_name_003,Butin Ensanglanté
+run_name_004,Furie Éminente
+run_name_005,Loterie Mystique
+run_desc_000,Initier le combat par une attaque double les dégâts.
+run_desc_001,Permet de survivre une fois à une attaque mortelle. Se régénère aux Sanctuaires de Jernika.
+run_desc_002,Contre-attaque immédiatement avec l'arme la plus puissante si les dégâts de l'ennemi sont supérieurs aux vôtres.
+run_desc_003,Donne des Éclats lorsqu'un coup critique est infligé.
+run_desc_004,Passer votre tour augmente les dégâts du prochain tour.
+run_desc_005,Les sorts ont une chance de voir leur coût diminué de moitié.
+amm_name_000,Flèche en Bois
+amm_name_001,Flèche à Plumes
+amm_name_002,Flèche
+amm_name_003,Flèche Magique
+amm_name_004,Flèche Enflammée
+amm_name_005,Flèche Explosive
+amm_name_006,Flèche Électrique
+amm_desc_000,Une flèche faite de bois.
+amm_desc_001,Une flèche ornée de plumes.
+amm_desc_002,Une flèche à la pointe en fer forgé.
+amm_desc_003,Une flèche imprégnée de puissance magique.
+amm_desc_004,Une flèche couverte d'huile mystique brûlant éternellement.
+amm_desc_005,Une flèche avec de la poudre à canon attachée à sa pointe.
+amm_desc_006,Une flèche imprégnée de puissance électrique.
+prologue_000,Notre peuple vivait dans la prospérité. Il n'y avait ni difficultés ni guerres.
+prologue_001,"Jusqu'à ce qu'un jour, ou devrais-je dire une nuit, tout changea."
+prologue_002,"Nos cieux étoilés commencèrent à se mouvoir rapidement, puis, semble-t-il, à s'effondrer."
+prologue_003,"Des êtres étranges, appelés Firrelins, émergèrent de ces monstrueux cratères et nous attaquèrent soudainement."
+prologue_004,"Bientôt, la plus grande de ces semblants d'étoiles tomba et forma le plus large des cratères, dont émergea une toute aussi gigantesque créature."
+prologue_005,"Il fut surnommé Vehord, le Seigneur Lupin."
+prologue_006,Ce loup monstrueux semblait commander aux autres créatures. Et les attaques empirèrent...
+prologue_007,Notre seul choix fut de nous enfuir sous terre.
+prologue_008,"Il devient bientôt clair que l'intérieur de la Terre était magiquement protégée contre la destruction apportée par les êtres stellaires, mais pouvait toujours être envahie, bien que difficilement..."
+prologue_009,"Le temps passant, à force d'explorations, nous découvrîmes tout ce que le monde recelait."
+prologue_010,"Magie, ingénierie sophistiquée, races similaires à la nôtre et même les dieux, bien que nombre d'entre eux étaient loin de leur plein potentiel, voire morts."
+prologue_011,"Nous joignîmes nos forces à celles des habitants des profondeurs et, au fil du temps, nous établîmes nos propres sociétés et royaumes."
+prologue_012,"Désormais nous avons nos propres troupes spéciales : les Voyageurs du Clair de Lune, qui explorent le monde souterrain à la recherche de resources et de leur propre accomplissement."
+prologue_013,"De telle sorte que, réunis, ils peuvent traverser la barrière nous séparant du monde d'en-haut pour faire face à Vehord et tous les Seigneurs Céruléens..."
+prologue_014,"Afin qu'un jour, nous puissions retourner au vaste royaume qui nous fut enlevé."
+npc_000_dia_000,"Mais cette histoire, tu la connais déjà..."
